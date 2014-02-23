@@ -8,10 +8,23 @@
 </head>
 <body>
 
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+  <div id="user_nav">	
+	<nav class="navigation-bar" role="navigation">
+	  <div class="navigation-bar-header">
+	  	  <button type="button" class="btn btn-primary">Eduvate</button>
+	      <a id="logo" href="/">Home</a>
+	      <a id="logo" href="/home/about">About</a>
+	      <a id="logo" href="/home/contact">Contact</a>
+	  </div>
+	</nav>
+  </div>
 
-<%= yield %>
+
+
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+
+  <%= yield %>
 
 </body>
 </html>
