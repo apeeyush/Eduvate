@@ -1,4 +1,6 @@
 Eduvate::Application.routes.draw do
+  resources :words
+
   get "admin/index"
   devise_for :admins
   get "home/index"
