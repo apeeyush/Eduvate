@@ -21,8 +21,8 @@ class HomeController < ApplicationController
     sound_file_dir = sound.to_s
     sound_file_path = rails_root_dir + public_dir + sound_file_dir
     audio = Speech::AudioToText.new(sound_file_path, :verbose => true)
-    text = audio.to_text
-    return text
+#    text = audio.to_text
+#    return text
   end
 
 end
