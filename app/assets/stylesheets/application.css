@@ -52,6 +52,7 @@ margin-bottom:1%;
 margin-left:1%;
 width:30%;
 height:5%;
+background-color:black;
 
 }
 
@@ -60,3 +61,33 @@ height:5%;
 background-color:black;
 
 }
+#container {
+background-color:black;
+opacity:.8;
+color:white;
+border-radius:4px;
+
+-webkit-transition: all .5s ease;
+
+margin:4% 6% 0% 6%;}
+#container:hover{opacity:1;}
+a:link {text-decoration:none;}
+a:visited {color:white;}
+#footer:hover {
+background:#0E8B9C;  padding:0px; border-radius:100px;}
+#footer{
+box-shadow:2px white;
+border-radius:7px;
+padding:10px;
+margin:5% 10%;
+clear:both;
+float:right;
+background-color:black;
+color:white;
+display:block;
+font-size:30px;
+-webkit-transition: all 1s ease;
+transition: all 1s;
+cursor:pointer;
+}
+#container h1 p{  color:white;font-weight:bold;}
