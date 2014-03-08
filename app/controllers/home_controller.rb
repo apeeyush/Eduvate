@@ -1,8 +1,9 @@
-require 'speech'
+#require 'speech'
 
 class HomeController < ApplicationController
   def index
-	@text = toText("recording00.wav")
+	  @word = Word.order("RANDOM()").first
+
   end
 
   def about
