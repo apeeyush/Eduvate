@@ -1,4 +1,7 @@
-		<div id="header">Echo</div>		
+		<div id="header">
+		Echo 
+		<a style="float:right;font-size:30px; margin:10px; opacity:.5;" href="about.html">About</a>
+		</div>		
 		<div id="ins"><h1>An app to make you speak proper</h1>
 		
 		Wait till the text appears then press stop.<br><br> 
@@ -59,6 +62,7 @@
 			reco.interimResults('interim_span');
 			reco.finalResults('input_field');
 			reco.continuous = true;
+			
 			}
 
 			function stopRecording() {
@@ -68,5 +72,12 @@
 				documet.getElementbyID("recorder").src= url;
     				});
 			}
-
+			if (reco.finalResults()=="adesh")
+			{
+			
+			prompt("Correct! Good Job");	
+			}
+			else
+			{	prompt("Try Harder.");	
+}
 		</script>
