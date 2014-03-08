@@ -3,7 +3,7 @@
 class HomeController < ApplicationController
   def index
 	  @word = Word.order("RANDOM()").first
-
+    @word_file_path = @word.path.to_s
   end
 
   def about

@@ -1,15 +1,15 @@
 		<div id="header">Echo</div>		
-<div id="ins"><h1>An app to make you speak proper</h1>
+		<div id="ins"><h1>An app to make you speak proper</h1>
 		
 		Wait till the text appears then press stop.<br><br> 
 		After that you can listen to your recording through the player below.<br><br>
 		 <br><br>
 		</div>
 		<div style="clear:right;">
-		<div id="word">Your word is:<p style="font-size:40px;">Test</p></div>
+		<div id="word">Your word is:<p style="font-size:40px;"><%= @word.name %></p></div>
 		<p style="font-size:25px;">Listen to correct Pronunciation:</p>
 		<audio id ="original" controls >
-		<source src="" type="audio/wav">
+		<source src="<%= @word_file_path %>" type="audio/wav">
 		</audio>
 		</div>
 		<br><br><br>
@@ -45,11 +45,7 @@
 
 			var recorder;
 			var audio = document.querySelector('audio');
-
-
-var reco = new WebSpeechRecognition();
-
-
+			var reco = new WebSpeechRecognition();
 
 
 			function startRecording() {
