@@ -65,7 +65,7 @@
 				reco.stop()||recorder.stop();
 				recorder.exportWAV(function(s) {
 				var url= window.URL.createObjectURL(s);
-				audio.src= url;
+				documet.getElementbyID("recorder").src= url;
     				});
 			}
 
