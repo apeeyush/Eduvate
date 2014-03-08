@@ -1,28 +1,29 @@
 
-<html>
-<link rel="stylesheet" type="text/css" href="echo.css">
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'
 	<body>
 		<div id="header">Echo</div>		
-<div id="ins"><h1>Press the play button to begin recording:</h1>
+<div id="ins"><h1>An app to make you speak proper</h1>
 		
 		Wait till the text appears then press stop.<br><br> 
 		After that you can listen to your recording through the player below.<br><br>
 		 <br><br>
 		</div>
+		<div style="clear:right;">
 		<div id="word">Your word is:<p style="font-size:40px;">Test</p></div>
-		<script type="text/javascript" src="recorder.js"> </script>
-		<script src="webspeech.js"></script>
+		<p style="font-size:25px;">Listen to correct Pronunciation:</p>
+		<audio id ="original" controls >
+		<source src="C:/Users/Rishav/Desktop/download.wav" type="audio/wav">
+		</audio>
+		</div>
+		<br><br><br>
 		<input id="button1" onclick="startRecording()" type="button" value="start recording" />
 		<input id= "button2" onclick="stopRecording()" type="button" value="stop recording" />
 		<br>
 		<div id="status">
 		
 		</div>
-		<audio controls ></audio>
-		<audio id ="original" controls >
-		<source src="C:/Users/Rishav/Desktop/download.wav" type="audio/wav">
-		</audio>
+		<audio id="recorder" controls ></audio>
+		
 
 		  <span id="interim_span" style="color:gray"></span>
   		<span id="input_field" style="color:black"></span>
@@ -80,4 +81,3 @@ var reco = new WebSpeechRecognition();
 
 
 	</body>
-</html>
