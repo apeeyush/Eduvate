@@ -1,13 +1,62 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree .
- */
+body{font-family: 'Varela Round', sans-serif; font-size:15px; 
+background-color:#0E8B9C; 
+color:#D9CED0;
+text-align:center;
+}
+#header{ background-color:black; 
+font-size:50px; 
+text-align:left;
+ margin-left:4%; 
+width:87%;
+padding:.5% 3%;
+ margin-top:1%;  }
+#button1{
+ padding: 3px 4px;
+border-radius:4px; 
+font-size:20px; 
+margin-top:4%;
+margin-right:40px;
+margin-left:2%;
+margin-bottom:1%;
+}
+#button2{ padding: 3px 4px;
+color:red; 
+border-radius:4px; 
+font-size:20px; 
+}  input[type="button"]:hover{color:#0E8B9C; 
+cursor:pointer; 
+height: 35px; 
+width:143px; 
+border-radius:5px;}
+
+#status{
+background-color:#D9CED0;
+color:black;}
+
+#input_field{}
+#ins{}
+#word{ background-color:white;
+ height:150px; 
+ border-radius:10px; float:left;
+ 
+ border:4px dotted #0E8B9C;
+width:30%;
+ color:black;
+margin-left:15%;
+ font-size:30px;
+ text-align:center;
+ }
+#recorder{ 
+margin-top:1%;
+margin-bottom:1%;
+margin-left:1%;
+width:30%;
+height:5%;
+
+}
+
+#original
+{ margin:1% -1% 1%;
+background-color:black;
+
+}
