@@ -1,0 +1,58 @@
+body{font-family: 'Varela Round', sans-serif; font-size:15px; 
+background-color:#0E8B9C; 
+color:#D9CED0;
+text-align:center;
+}
+#header{ background-color:black; 
+font-size:50px; 
+text-align:left;
+ margin-left:4%; 
+width:87%;
+padding:.5% 3%;
+ margin-top:1%;  }
+#button1{
+ padding: 3px 4px;
+border-radius:4px; 
+font-size:20px; 
+margin-top:4%;
+margin-right:40px;
+margin-left:2%;
+}
+#button2{ padding: 3px 4px;
+color:red; 
+border-radius:4px; 
+font-size:20px; 
+}  input[type="button"]:hover{color:#0E8B9C; 
+cursor:pointer; 
+height: 35px; 
+width:143px; 
+border-radius:5px;}
+
+#status{
+background-color:#D9CED0;
+color:black;}
+
+#input_field{}
+#ins{}
+#word{ background-color:white;
+ height:150px; 
+ border-radius:10px;
+ 
+ border:4px dotted #0E8B9C;
+width:30%;
+ color:black;
+margin-left:35%;
+ font-size:30px;
+ text-align:center;
+ }
+audio{ 
+margin-top:2%;
+margin-bottom:1%;
+width:30%;
+height:5%;
+}
+
+#original
+{
+background-color:
+}
