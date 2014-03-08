@@ -17,6 +17,7 @@ font-size:20px;
 margin-top:4%;
 margin-right:40px;
 margin-left:2%;
+margin-bottom:1%;
 }
 #button2{ padding: 3px 4px;
 color:red; 
@@ -36,23 +37,27 @@ color:black;}
 #ins{}
 #word{ background-color:white;
  height:150px; 
- border-radius:10px;
+ border-radius:10px; float:left;
  
  border:4px dotted #0E8B9C;
 width:30%;
  color:black;
-margin-left:35%;
+margin-left:15%;
  font-size:30px;
  text-align:center;
  }
-audio{ 
-margin-top:2%;
+#recorder{ 
+margin-top:1%;
 margin-bottom:1%;
+margin-left:1%;
 width:30%;
 height:5%;
+background-color:black;
+
 }
 
 #original
-{
-background-color:
+{ margin:1% -1% 1%;
+background-color:black;
+
 }
